@@ -5,7 +5,7 @@
   "proxyURL": "http://localhost:8000",
   "proxyPath": "/api",
   "version": "1.0.0",
-  "engines":{
+  "engines": {
     "node": "6.11.1"
   },
   "private": true,
@@ -54,5 +54,8 @@
     "loom": "~3.1.2",
     "connect-livereload": "~0.3.1",
     "grunt-contrib-stylus": "~0.13.1"
+  },
+  "dependencies": {
+    "foobar": "^1.1.0"
   }
 }
